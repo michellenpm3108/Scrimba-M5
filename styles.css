@@ -136,3 +136,40 @@ img {
         width: 45%;
     }
 }
+
+/* C4 BLOG POSTS */
+.blog-posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.post {
+    width: 60%;
+    padding: 1em;
+    text-align: center;
+    background-color: rgb(218, 223, 250);
+    border-radius: 10px;
+    margin: 2em;
+}
+@media (min-width: 820px) {
+    .blog-posts{
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    .post {
+        width: 40%;
+        margin: 1em;
+    }
+}
+.post-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(7, 8, 10);
+}
+.post-image {
+    width: 70%;
+    margin: 0;
+}
+.post-content {
+    color: rgb(42, 59, 80);
+}
