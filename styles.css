@@ -116,4 +116,27 @@ nav a:focus {
     padding: 1em;
 }
 
-/* test */
+/* C3 COLLAGE IMAGE */
+.collage-image {
+    margin: 0 auto;
+    background-color: red;
+}
+img {
+    width: 100%;
+    max-width: 350px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin: 0 0 2em 0;
+}
+@media (min-width: 675px) {
+    .collage-image {
+        display: flex;
+        justify-content: space-between;
+    }
+    .first-row, 
+    .second-row {
+        width: 45%;
+    }
+
+}
