@@ -142,11 +142,14 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 .post {
     width: 60%;
     padding: 1em;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: rgb(218, 223, 250);
     border-radius: 10px;
     margin: 2em;
@@ -168,8 +171,11 @@ img {
 }
 .post-image {
     width: 70%;
+    object-fit: cover;
+    order: 1;
     margin: 0;
 }
 .post-content {
     color: rgb(42, 59, 80);
+
 }
