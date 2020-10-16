@@ -154,15 +154,8 @@ img {
     border-radius: 10px;
     margin: 2em;
 }
-@media (min-width: 820px) {
-    .blog-posts{
-        flex-flow: row wrap;
-        justify-content: space-between;
-    }
-    .post {
-        width: 40%;
-        margin: 1em;
-    }
+.post * {
+    margin: .5em;
 }
 .post-title {
     font-size: 2rem;
@@ -178,4 +171,18 @@ img {
 .post-content {
     color: rgb(42, 59, 80);
 
+}
+
+@media (min-width: 820px) {
+    .blog-posts{
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .post {
+        width: 40%;
+        margin: 1em;
+    }
+    .post-image {
+        order: 0;
+    }
 }
