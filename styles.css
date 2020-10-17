@@ -58,22 +58,27 @@ nav a:focus {
     color: white;
     font-weight: 600;
 }
-@media (min-width: 700px) {
+@media (min-width: 750px) {
     nav {
         flex-direction: column;
     }
     .line-one,
     .line-two {
      display: flex;
-     justify-content: space-between;
+     justify-content: center;
     }
     .line-one{
-        margin-bottom: .25em;
+        margin-bottom:.25em ;
     }
     .line-two {
         margin-top:0;
     }
-    
+    nav a {
+        margin-right: .5em;
+    }
+    nav a:last-child {
+        margin: none;
+    }
  }
 
 /* C1-RESPONSIVE BOXES  */
@@ -186,3 +191,6 @@ img {
         order: 0;
     }
 }
+
+/* C5 NAVIGATION BAR */
+
