@@ -268,3 +268,45 @@ img {
     background-color: rgb(241, 183, 183);
 }
 
+/* C7 - FLASH BOX */
+.flash-boxes {
+    display: flex;
+    flex-flow: row wrap;
+}
+.flash-box {
+    width: 50%;
+    height: 200px;
+    opacity: 0;
+}
+.fbox-1 {
+    background-color: rgb(241, 183, 183);
+}
+.fbox-2 {
+    background-color: rgb(209, 241, 183);
+}
+.fbox-3 {
+    background-color: rgb(183, 225, 241);
+}
+.fbox-4 {
+    background-color: rgb(241, 183, 231);
+}
+@media (max-width: 599px) {
+    .fbox-1 {
+        opacity: 1;
+    }
+}
+@media (min-width: 600px) and (max-width: 649px) {
+    .fbox-2 {
+        opacity: 1;
+    }
+}
+@media (min-width: 650px) and (max-width: 699px) {
+    .fbox-3 {
+        opacity: 1;
+    }
+}
+@media (min-width: 700px)  {
+    .fbox-4 {
+        opacity: 1;
+    }
+}
